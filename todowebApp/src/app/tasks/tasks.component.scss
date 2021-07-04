@@ -1,0 +1,35 @@
+body{
+    background-image: url('../tasks/images/cristian-grecu-xQYW7brEauY-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -7%;
+  }
+  
+  
+  .card{
+    margin-top: 12%;
+  }
+  
+  #zoom{
+      border-radius: 35px;
+      padding: 30px;
+      cursor: pointer;
+      background-color: #a1f5cea4;
+      transition: transform 0.2s;
+      width: 86%;
+      height: 80%;
+      margin: 0 auto;
+  }
+    #zoom:hover {
+      transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+  
+    .btnn{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .btn-primary {
+      margin: 1.5%;
+    }
